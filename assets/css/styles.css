@@ -82,6 +82,7 @@ body {
   font-size: var(--normal-font-size);
 }
 
+/* set  */
 body {
   background-color: var(--body-color);
   color: var(--text-color);
