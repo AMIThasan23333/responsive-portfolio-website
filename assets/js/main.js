@@ -20,16 +20,12 @@ const navMenu = document.getElementById('nav-menu')
 
 /*=============== REMOVE MENU MOBILE ===============*/
 
-
+/* this is import  */
 const navLink = document.querySelectorAll('.nav__link')
-
 const linkAction = () => {
-
     const navMenu = document.getElementById('nav-menu')
-
     navMenu.classList.remove('show-menu')
 }
-
 navLink.forEach(N => N.addEventListener('click', linkAction))
 
 
